@@ -45,7 +45,8 @@ const App = () => {
 
                   </div>
 
-                      <div id="timeText6" class='table-container' style={{ visibility: 'hidden' }}> 
+                      <div id="timeText6" style={{ visibility: 'hidden' }}> 
+                      <div class='table-container'>
                       <table>
 
                         <thead>
@@ -78,7 +79,42 @@ const App = () => {
                       
                         </tbody>
                       </table>
-                      
+                      </div>
+
+                      <div class='table-container'>
+                      <table>
+
+<thead>
+  <tr>
+    <th scope="col">№</th>
+    <th scope="col">Предмет</th>
+    <th scope="col">Кабинет</th>
+    <th scope="col">Время</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td data-label="Account">1</td>
+    <td data-label="Due Date">Информационные технологии</td>
+    <td data-label="Amount">224</td>
+    <td data-label="Period">10:05 - 11:30</td>
+  </tr>
+  <tr>
+    <td scope="row" data-label="Account">2</td>
+    <td data-label="Due Date">Информационные технологии</td>
+    <td data-label="Amount">224</td>
+    <td data-label="Period">11:40 - 13:05</td>
+  </tr>
+  <tr>
+    <td scope="row" data-label="Account">3</td>
+    <td data-label="Due Date">История медиадизайна</td>
+    <td data-label="Amount">107</td>
+    <td data-label="Period">13:45 - 15:10</td>
+  </tr>
+
+</tbody>
+</table>
+</div>
                       </div>
 
                           <div id="timeText7" style={{ visibility: 'hidden' }}>

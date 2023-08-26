@@ -20,8 +20,6 @@ const day = date.getDate();
 const formattedTime = `Сегодня ${weekday}, ${month}, ${day} число!`; 
 
 
-
-
 if (weekday === "понедельник") {
     div = document.getElementById("timeText1");
     div.style.visibility = 'visible';
